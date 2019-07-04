@@ -2,6 +2,8 @@
 
 ## powerup
 
+アップデートをまとめたエイリアス
+
 ```sh
 vi ~/.bash_aliases
 
