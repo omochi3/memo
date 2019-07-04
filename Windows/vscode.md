@@ -13,6 +13,7 @@
     "code-eol.newlineCharacter":"↓",
     "code-eol.returnCharacter" :"←",
     "code-eol.crlfCharacter": "↵",
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
     "shellLauncher.shells.windows": [
         {
             "shell": "C:\\Windows\\system32\\cmd.exe",
