@@ -43,3 +43,7 @@
 - vscode-textlint
 - code-eol 2019
 - Shell launcher
+
+## textlint
+
+WIP
