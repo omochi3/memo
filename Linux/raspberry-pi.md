@@ -36,6 +36,12 @@ ssh-keygen -t rsa
 ```
 
 指定したディレクトリに秘密鍵 (id_rsa) と公開鍵 (id_rsa.pub) が作成されるので、公開鍵 (id_rsa.pub) をラズパイにコピーする。
+
+```sh
+scp ~/.ssh/id_rsa.pub pi@192.168.nnn.nnn:~
+```
+
+
 ネットワーク経由でのコピーが難しいのであれば、ラズパイをインストールしたmicroSDカードに配置してよい。
 ( `config.txt` 等のファイルが保管されているパーミッション)
 
@@ -62,7 +68,8 @@ UsePAM no                   # PAM（Pluggable Authentication Module）認証 (�
 # 公開鍵ファイルを登録する
 mkdir ~/.ssh
 chmod 0700 ~/.ssh
-touch ~/.ssh/authorized_keys
+cat id_rsa.pub >> .ssh/authorized_keys
+#touch ~/.ssh/authorized_keys
 chmod 0600 ~/.ssh/authorized_keys
 
 # sshd を再起動する
