@@ -11,6 +11,7 @@
 ### XSS
 
 - <https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet>
+- <https://portswigger.net/web-security/cross-site-scripting/cheat-sheet>
 
 ### HTML
 
