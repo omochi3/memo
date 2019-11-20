@@ -1,5 +1,15 @@
 # vscode
 
+## font
+
+- [Source Han Code JP](https://github.com/adobe-fonts/source-han-code-jp, "Source Han Code JP")
+- [HackGen](https://github.com/yuru7/HackGen, "HackGen")
+
+### ligatures
+
+- [Cascadia Code](https://github.com/microsoft/cascadia-code, "Cascadia Code")
+- [Fira Code](https://github.com/tonsky/FiraCode, "Fira Code")
+
 ## settings.json
 
 ```json:settings.json
