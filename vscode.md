@@ -30,7 +30,8 @@
             "label": "cmd"
         },
         {
-            "shell": "C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\powershell.exe",
+//            "shell": "C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "shell": "C:\\Program Files\\PowerShell\\6\\pwsh.exe",
             "label": "PowerShell"
         },
         {
