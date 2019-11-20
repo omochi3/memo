@@ -6,7 +6,7 @@
 {
     "git.autofetch": true,
     "editor.cursorBlinking": "smooth",
-    "editor.fontFamily": "'Source Han Code JP', Consolas, 'Courier New', monospace",
+    "editor.fontFamily": "'Cascadia Code', 'Source Han Code JP', Consolas, 'Courier New', monospace",
     "editor.fontLigatures": true,
     "editor.renderWhitespace": "all",
     "editor.renderControlCharacters": false,
