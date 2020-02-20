@@ -32,3 +32,11 @@ apt update && apt install -y linux-headers-$(uname -r)
 ```
 
 apt-get install virtualbox-guest-dkms
+
+## Enable HiDPI Fractional Scaling
+
+```
+gsettings set org.gnome.mutter experimental-features "['scale-monitor-framebuffer']"
+gsettings set org.gnome.mutter experimental-features "['x11-randr-fractional-scaling']"
+gsettings reset org.gnome.mutter experimental-features
+```
